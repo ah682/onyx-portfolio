@@ -5,7 +5,7 @@ const Contact: React.FC = () => {
   return (
     <section id="contact" className="py-5">
       <Container>
-        <h2 className="text-center mb-5 text-light">Get In Touch</h2>
+        <h2 className="section-heading">Get In Touch</h2>
         <Row className="justify-content-center">
           <Col md={6} className="mb-4">
             <div className="contact-info">

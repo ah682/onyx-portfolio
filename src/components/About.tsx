@@ -14,7 +14,7 @@ const About: React.FC = () => {
   return (
     <section id="about" className="py-5">
       <Container>
-        <h2 className="text-center mb-5 text-light">About Me</h2>
+        <h2 className="section-heading">About Me</h2>
         <Row className="align-items-center">
           <Col md={6} className="mb-4">
             <div className="about-content">

@@ -393,3 +393,11 @@ footer {
     flex-direction: column;
   }
 }
+
+.section-heading {
+  color: var(--onyx-accent);
+  font-weight: 600;
+  margin-bottom: 2rem;
+  text-align: center;
+  width: 100%;
+}
