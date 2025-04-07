@@ -1,46 +1,86 @@
-# Getting Started with Create React App
+# Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A beautiful, responsive portfolio website built with React, TypeScript, and Bootstrap, featuring an onyx color palette.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Modern, responsive design
+- Onyx color palette
+- Smooth scrolling navigation
+- Project showcase section
+- Contact form
+- Social media links
+- Skills display
+- Mobile-friendly layout
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Prerequisites
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Node.js (v14 or higher)
+- npm (v6 or higher)
 
-### `npm test`
+### Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/portfolio.git
+cd portfolio
+```
 
-### `npm run build`
+2. Install dependencies:
+```bash
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Start the development server:
+```bash
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The application will be available at `http://localhost:3000`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Deployment to GitHub Pages
 
-### `npm run eject`
+1. Install gh-pages package:
+```bash
+npm install gh-pages --save-dev
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. Add the following scripts to your `package.json`:
+```json
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Add the homepage field to your `package.json`:
+```json
+"homepage": "https://yourusername.github.io/portfolio"
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+4. Deploy to GitHub Pages:
+```bash
+npm run deploy
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Customization
 
-## Learn More
+1. Update your personal information in `src/App.tsx`
+2. Add your projects to the projects section
+3. Update social media links
+4. Modify the color scheme in `src/App.css`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Technologies Used
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- React
+- TypeScript
+- Bootstrap
+- React Bootstrap
+- Font Awesome
+- GitHub Pages
+
+## License
+
+This project is licensed under the MIT License.
