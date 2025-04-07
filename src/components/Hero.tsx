@@ -7,14 +7,14 @@ const Hero: React.FC = () => {
       <Container>
         <Row className="align-items-center min-vh-100">
           <Col md={6} className="hero-content">
-            <div className="hero-text">
-              <h1 className="display-4 text-light mb-3">
+            <div className="hero-text fade-up">
+              <h1 className="display-4 mb-3">
                 Hi, I'm <span className="text-primary">Your Name</span>
               </h1>
-              <h2 className="text-light mb-4">
+              <h2 className="mb-4">
                 <span className="typing-text">Software Developer</span>
               </h2>
-              <p className="lead text-light mb-4">
+              <p className="lead mb-4 text-gray">
                 I create beautiful and functional web applications that solve real-world problems.
                 Passionate about clean code and user experience.
               </p>
@@ -28,13 +28,13 @@ const Hero: React.FC = () => {
               </div>
               <div className="social-links">
                 <a href="https://github.com" className="text-light me-3" target="_blank" rel="noopener noreferrer">
-                  <i className="fab fa-github fa-2x"></i>
+                  <i className="fab fa-github fa-lg"></i>
                 </a>
                 <a href="https://linkedin.com" className="text-light me-3" target="_blank" rel="noopener noreferrer">
-                  <i className="fab fa-linkedin fa-2x"></i>
+                  <i className="fab fa-linkedin fa-lg"></i>
                 </a>
                 <a href="https://twitter.com" className="text-light" target="_blank" rel="noopener noreferrer">
-                  <i className="fab fa-twitter fa-2x"></i>
+                  <i className="fab fa-twitter fa-lg"></i>
                 </a>
               </div>
             </div>
