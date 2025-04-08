@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/onyx-portfolio/static/css/main.84edf14c.css",
-    "main.js": "/onyx-portfolio/static/js/main.d18a3ee7.js",
+    "main.css": "/onyx-portfolio/static/css/main.3c28cf05.css",
+    "main.js": "/onyx-portfolio/static/js/main.5edd6bbf.js",
     "static/js/453.1407b060.chunk.js": "/onyx-portfolio/static/js/453.1407b060.chunk.js",
     "static/media/fa-solid-900.ttf": "/onyx-portfolio/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
     "static/media/fa-brands-400.ttf": "/onyx-portfolio/static/media/fa-brands-400.1815e00441357e01619e.ttf",
@@ -12,12 +12,12 @@
     "static/media/fa-v4compatibility.ttf": "/onyx-portfolio/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
     "static/media/fa-v4compatibility.woff2": "/onyx-portfolio/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/onyx-portfolio/index.html",
-    "main.84edf14c.css.map": "/onyx-portfolio/static/css/main.84edf14c.css.map",
-    "main.d18a3ee7.js.map": "/onyx-portfolio/static/js/main.d18a3ee7.js.map",
+    "main.3c28cf05.css.map": "/onyx-portfolio/static/css/main.3c28cf05.css.map",
+    "main.5edd6bbf.js.map": "/onyx-portfolio/static/js/main.5edd6bbf.js.map",
     "453.1407b060.chunk.js.map": "/onyx-portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.84edf14c.css",
-    "static/js/main.d18a3ee7.js"
+    "static/css/main.3c28cf05.css",
+    "static/js/main.5edd6bbf.js"
   ]
 }
